@@ -32,15 +32,15 @@ This will create the files required to compute the filtered metrics.
 In order to reproduce the results on the smaller datasets in the paper, run the following commands
 
 ```
-python tkbc/learner.py --dataset ICEWS14 --model BiComTime --rank 400 --emb_reg 1e-2 --time_reg 1e-1 --learning_rate 0.1
+python tkbc/learner.py --dataset ICEWS14 --model BiCoTime --rank 400 --emb_reg 1e-2 --time_reg 1e-1 --learning_rate 0.1
 
-python tkbc/learner.py --dataset ICEWS05-15 --model BiComTime --rank 275 --emb_reg 1e-3 --time_reg 1e-2 --learning_rate 0.1
+python tkbc/learner.py --dataset ICEWS05-15 --model BiCoTime --rank 275 --emb_reg 1e-3 --time_reg 1e-2 --learning_rate 0.1
 
-python tkbc/learner.py --dataset gdelt --model BiComTime --rank 275 --emb_reg 1e-2 --time_reg 1e-2 --learning_rate 0.1
+python tkbc/learner.py --dataset gdelt --model BiCoTime --rank 275 --emb_reg 1e-2 --time_reg 1e-2 --learning_rate 0.1
 
-python tkbc/learner.py --dataset yago11k --model BiComTime --rank 275 --emb_reg 1e-1 --time_reg 1e-2 --learning_rate 0.01
+python tkbc/learner.py --dataset yago11k --model BiCoTime --rank 275 --emb_reg 1e-1 --time_reg 1e-2 --learning_rate 0.01
 
-python tkbc/learner.py --dataset wikidata12k --model BiComTime --rank 400 --emb_reg 1e-3 --time_reg 1e-2 --learning_rate 0.01
+python tkbc/learner.py --dataset wikidata12k --model BiCoTime --rank 400 --emb_reg 1e-3 --time_reg 1e-2 --learning_rate 0.01
 ```
 
 ## Thanks
